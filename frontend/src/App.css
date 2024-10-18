@@ -1,0 +1,68 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-item {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e31717;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 6px 20px;
+    font-size: 10px;
+    background-color: #64ea30;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+  }
+  
+  button:hover {
+    background-color: #7d9bbb;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 10;
+    margin-top: 20px;
+  }
+  
+  li {
+    padding: 8px;
+    border-bottom: 1px solid #070707;
+  }
+  
+  .completed {
+ 
+    text-decoration: line-through;
+    color: rgb(22, 3, 21);
+    
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    margin-left: 5px;
+    background-color: #c5121e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: #bd2130;
+  }
+ 
